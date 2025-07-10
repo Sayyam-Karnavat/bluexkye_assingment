@@ -44,8 +44,8 @@ Create a Virtual Environment:
 
 - web_crawler.py: Crawls a website using requests and BeautifulSoup, saving content to Extracted_Data/extracted_content.json.
 - knowledge_base.py: Loads JSON, splits content, generates embeddings with OllamaEmbeddings, and builds a FAISS vector store.
-- chatbot.py: FastAPI app with a /ask endpoint for querying the chatbot using Ollama.
-- app.py: Streamlit app for crawling websites, building the knowledge Melody and answering queries with chat history.
+- fast_api.py: FastAPI app with a /ask endpoint for querying the chatbot using Ollama.
+- main.py: Streamlit app for crawling websites, building the knowledge Melody and answering queries with chat history.
 - Extracted_Data/: Directory for storing extracted_content.json.
 - faiss_index/: Directory for FAISS vector store.
 
