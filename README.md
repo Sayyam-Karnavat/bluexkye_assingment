@@ -18,14 +18,14 @@ Create a Virtual Environment:
 
 2. Activate the Virtual Environment:
 
- - Windows:.venv\Scripts\activate
+ - .venv\Scripts\activate
 
 
 
 
 
 3. Install Dependencies:
-- uv sync
+- uv sync (pyproject.toml)
 ###### OR
 - uv pip install -r requirements.txt
 
@@ -34,7 +34,7 @@ Create a Virtual Environment:
 
 4. Run the Application:
 
-- FastAPI Server : uv run uvicorn fast_api:app --port {PORT_NUMBER} , Access the API at http://localhost:{PORT_NUMBER}/docs.
+- FastAPI Server : uv run uvicorn fast_api:app --port 3333 , Access the API at http://localhost:3333/docs.
 ##### OR
 - Streamlit App : streamlit run app.py
 
