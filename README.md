@@ -12,7 +12,7 @@
 Create a Virtual Environment:
 
 - python -m venv .venv
-# OR
+###### OR
 - uv venv
 
 
@@ -26,7 +26,7 @@ Create a Virtual Environment:
 
 3. Install Dependencies:
 - uv sync
-# OR
+###### OR
 - uv pip install -r requirements.txt
 
 
@@ -35,6 +35,7 @@ Create a Virtual Environment:
 4. Run the Application:
 
 - FastAPI Server : uv run uvicorn chatbot:app --port {PORT_NUMBER} , Access the API at http://localhost:{PORT_NUMBER}/docs.
+##### OR
 - Streamlit App : streamlit run app.py
 
 
