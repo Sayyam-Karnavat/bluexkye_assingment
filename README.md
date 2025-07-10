@@ -34,7 +34,7 @@ Create a Virtual Environment:
 
 4. Run the Application:
 
-- FastAPI Server : uv run uvicorn chatbot:app --port {PORT_NUMBER} , Access the API at http://localhost:{PORT_NUMBER}/docs.
+- FastAPI Server : uv run uvicorn fast_api:app --port {PORT_NUMBER} , Access the API at http://localhost:{PORT_NUMBER}/docs.
 ##### OR
 - Streamlit App : streamlit run app.py
 
